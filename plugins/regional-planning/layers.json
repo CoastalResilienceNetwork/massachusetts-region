@@ -1,128 +1,137 @@
 [
     {
-        "displayName": "Coasts @ Risk, Boundaries & Habitats",
+        "displayName": "Boston, MA",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Global/",
-            "name": "Global",
-            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "coastalresilience.gdb" 
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
         },
         "includeLayers": [
             {
-                "name": "Coasts at Risk 2014",
-                "displayName": "Coasts at Risk (2014)",
+                "name": "Urban Watersheds"
+            },
+            {
+                "name": "Charles, Mystic, and Neponset Mainstems"
+            },
+            {
+                "name": "Towns"
+            },
+            {
+                "name": "Hydrography",
                 "includeAllLayers": true
             },
             {
-                "name": "Ecoregions and Provinces",
-                "displayName": "Ecoregions &amp; Provinces",
-                "includeLayers": [
-                    {
-                        "name": "TNC Marine Ecoregions of the World"
-                    },
-                    {
-                        "name": "TNC Major Emphasis Areas"
-                    },
-                    {
-                        "name": "TNC Marine Provinces"
-                    },
-                    {
-                        "name": "TNC Expanding Areas"
-                    },
-                    {
-                        "name": "UNESCO Pelagic Provinces of the World"
-                    },
-                    {
-                        "name": "UNESCO Biomes of the World"
-                    },
-                    {
-                        "name": "The Nature Conservancy Ocean Strategies 2016",
-                        "includeLayers": [
-                            {
-                                "name": "Climate Risk & Resilience and Blue Carbon"
-                            },
-                            {
-                                "name": "Global Fisheries"
-                            },
-                            {
-                                "name": "Ocean Planning & Protection"
-                            }
-                        ]
-                    }
-                ]
-            },
-            { 
-                "name": "Habitats",
-                "displayName": "Habitats",
+                "name": "Roads",
                 "includeAllLayers": true
-           }
+            },
+            {
+                "name": "Building Footprints"
+            },
+            {
+                "name": "Impervious Surface"
+            },
+            {
+                "name": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Sea Level Rise Inundation",
+                "displayName": "Sea Level Rise",
+                "includeAllLayers": true
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard"
+            },
+            {
+                "name": "Probability of Flooding",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at 1% Flood Probability",
+                "displayName": "Water Depth at 1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at .1% Flood Probability",
+                "displayName": "Water Depth at 0.1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Environmental Justice Communities - Income"
+            },
+            {
+                "name": "Environmental Justice Communities - English Isoloation"
+            },
+            {
+                "name": "Environmental Justice Communities - Minority"
+            },
+            {
+                "name": "Open Space"
+            },
+            {
+                "name": "Brownfields"
+            },
+            {
+                "name": "Active River Area"
+            }
         ]
     },
     {
-        "displayName": "Coastal Storms, Sea Level & Exposure",
+        "displayName": "Martha's Vineyard, MA",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Global/",
-            "name": "Global",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "coastalresilience.gdb" 
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
         },
         "includeLayers": [
-            { 
-                "name": "Hazards",
-                "displayName": "Hazards",
-                "includeLayers": [
-                    {
-                        "name": "Storm Hazards",
-                        "includeAllLayers": true
-                    },
-                    {
-                        "name": "Waves and Sea Level",
-                        "includeAllLayers": true
-                    },
-                    {
-                        "name": "Exposure (Social and Economic)",
-                        "includeLayers": [
-                            {
-                                "name": "Cyclone Economic Exposure",
-                                "includeAllLayers": true
-                            },
-                            {
-                                "name": "Storm Surge Economic Exposure",
-                                "includeAllLayers": true
-                            },
-                            {
-                                "name": "Storm Surge Physical Exposure",
-                                "includeAllLayers": true
-                            },
-                            {
-                                "name": "Global population under 10m elevation (per sq km)"
-                            },
-                            {
-                                "name": "Gridded Global Population (per sq km)"
-                            },
-                            {
-                                "name": "Global GDP distributed by gridded population (US$ x 1000 per sq km)"
-                            },
-                            {
-                                "name": "Urban Areas (low income)"
-                            },
-                            {
-                                "name": "Urban Areas (total residential assets)"
-                            },
-                            {
-                                "name": "Urban Areas (total all assets)"
-                            },
-                            {
-                                "name": "Multi-Hazard Mortality Risk Index"
-                            }
-                        ]
-                    }
-                ]    
+            {
+                "name": "Shoreline Stabilization",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Historic Shorelines",
+                "displayName": "Historic Shorelines"
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard Layer"
+            },
+            {
+                "name": "Hurricane Inundation Zones",
+                "displayName": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Open SpaceMV",
+                "displayName": "Open Space"
+            },
+            {
+                "name": "ParcelsMV",
+                "displayName": "Parcels"
+            },
+            {
+                "name": "Assessed Values",
+                "includeAllLayers": true
+            },
+            {
+                "name": "WetlandsMV",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Eelgrass",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Vegetation (1993)",
+                "displayName": "Martha's Vineyard Vegetation (1993)"
+            },
+            {
+                "name": "LANDUSE2005_POLY",
+                "displayName": "LANDUSE2005_POLY"
             }
         ]
     }
 ]
+
+
