@@ -4,10 +4,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Cities",
-            "name": "Cities",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "un_global.gdb" 
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
         },
         "includeLayers": [
             {
@@ -99,10 +97,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Cities",
-            "name": "Cities",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "un_global.gdb" 
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
         },
         "includeLayers": [
             {
@@ -122,11 +118,11 @@
                 "displayName": "Hurricane Inundation Zones"
             },
             {
-                "name": "Open Space",
+                "name": "Open SpaceMV",
                 "displayName": "Open Space"
             },
             {
-                "name": "Parcels",
+                "name": "ParcelsMV",
                 "displayName": "Parcels"
             },
             {
@@ -134,7 +130,7 @@
                 "includeAllLayers": true
             },
             {
-                "name": "Wetlands",
+                "name": "WetlandsMV",
                 "includeAllLayers": true
             },
             {
@@ -142,7 +138,7 @@
                 "includeAllLayers": true
             },
             {
-                "name": "Martha's Vineyard Vegetation (1993)",
+                "name": "Vegetation (1993)",
                 "displayName": "Martha's Vineyard Vegetation (1993)"
             },
             {

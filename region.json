@@ -1,8 +1,8 @@
 {
     "googleAnalyticsPropertyId": "7401895-46",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Massachusetts", "url": "" },
-    "titleDetail": { "text": "JMassachusetts", "url": "" },
+    "titleMain": { "text": "Coastal Resilience", "url": "" },
+    "titleDetail": { "text": "Massachusetts", "url": "" },
     "headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
@@ -54,7 +54,7 @@
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Jamaica",
+            "title": "Massachusetts	",
             "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.",
             "plugins": [
                 {
