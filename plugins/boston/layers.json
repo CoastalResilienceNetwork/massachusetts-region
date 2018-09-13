@@ -1,0 +1,156 @@
+[
+    {
+        "displayName": "Boston, MA",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Cities",
+            "name": "Cities",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "un_global.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Urban Watersheds",
+                "displayName": "Urban Watersheds"
+            },
+            {
+                "name": "Charles, Mystic, and Neponset Mainstems",
+                "displayName": "Charles, Mystic, and Neponset Mainstems"
+            },
+            {
+                "name": "Towns",
+                "displayName": "Towns"
+            },
+            {
+                "name": "Hydrography",
+                "displayName": "Hydrography",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Roads",
+                "displayName": "Roads",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Building Footprints",
+                "displayName": "Building Footprints"
+            },
+            {
+                "name": "Impervious Surface",
+                "displayName": "Impervious Surface"
+            },
+            {
+                "name": "Hurricane Inundation Zones",
+                "displayName": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Sea Level Rise Inundation",
+                "displayName": "Sea Level Rise",
+                "includeAllLayers": true
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard"
+                            },
+            {
+                "name": "Probability of Flooding",
+                "displayName": "Probability of Flooding",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at 1% Flood Probability",
+                "displayName": "Water Depth at 1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at .1% Flood Probability",
+                "displayName": "Water Depth at 0.1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Environmental Justice Communities - Income",
+                "displayName": "Environmental Justice Communities - Income"
+            },
+            {
+                "name": "Environmental Justice Communities - English Isoloation",
+                "displayName": "Environmental Justice Communities - English Isolation"
+            },
+            {
+                "name": "Environmental Justice Communities - Minority",
+                "displayName": "Environmental Justice Communities - Minority"
+            },
+            {
+                "name": "Open Space",
+                "displayName": "Open Space"
+            },
+            {
+                "name": "Brownfields",
+                "displayName": "Brownfields"
+            },
+            {
+                "name": "Active River Area",
+                "displayName": "Active River Area"
+            }
+        ]
+    },
+    {
+        "displayName": "Martha's Vineyard, MA",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Cities",
+            "name": "Cities",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "un_global.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Shoreline Stabilization",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Historic Shorelines",
+                "displayName": "Historic Shorelines"
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard Layer"
+            },
+            {
+                "name": "Hurricane Inundation Zones",
+                "displayName": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Open Space",
+                "displayName": "Open Space"
+            },
+            {
+                "name": "Parcels",
+                "displayName": "Parcels"
+            },
+            {
+                "name": "Assessed Values",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Wetlands",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Eelgrass",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Martha's Vineyard Vegetation (1993)",
+                "displayName": "Martha's Vineyard Vegetation (1993)"
+            },
+            {
+                "name": "LANDUSE2005_POLY",
+                "displayName": "LANDUSE2005_POLY"
+            }
+        ]
+    }
+]
+
+
