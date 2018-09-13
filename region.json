@@ -60,7 +60,7 @@
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
                     "description": "Explore regional datasets across the island.",
-                    "pluginName": "regional-planning"
+                    "pluginName": "boston"
                 }
             ],
             "partners": [

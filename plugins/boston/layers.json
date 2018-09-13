@@ -9,38 +9,30 @@
         },
         "includeLayers": [
             {
-                "name": "Urban Watersheds",
-                "displayName": "Urban Watersheds"
+                "name": "Urban Watersheds"
             },
             {
-                "name": "Charles, Mystic, and Neponset Mainstems",
-                "displayName": "Charles, Mystic, and Neponset Mainstems"
+                "name": "Charles, Mystic, and Neponset Mainstems"
             },
             {
-                "name": "Towns",
-                "displayName": "Towns"
+                "name": "Towns"
             },
             {
                 "name": "Hydrography",
-                "displayName": "Hydrography",
                 "includeAllLayers": true
             },
             {
                 "name": "Roads",
-                "displayName": "Roads",
                 "includeAllLayers": true
             },
             {
-                "name": "Building Footprints",
-                "displayName": "Building Footprints"
+                "name": "Building Footprints"
             },
             {
-                "name": "Impervious Surface",
-                "displayName": "Impervious Surface"
+                "name": "Impervious Surface"
             },
             {
-                "name": "Hurricane Inundation Zones",
-                "displayName": "Hurricane Inundation Zones"
+                "name": "Hurricane Inundation Zones"
             },
             {
                 "name": "Sea Level Rise Inundation",
@@ -50,10 +42,9 @@
             {
                 "name": "FEMA National Flood Hazard Layer",
                 "displayName": "FEMA National Flood Hazard"
-                            },
+            },
             {
                 "name": "Probability of Flooding",
-                "displayName": "Probability of Flooding",
                 "includeAllLayers": true
             },
             {
@@ -67,28 +58,22 @@
                 "includeAllLayers": true
             },
             {
-                "name": "Environmental Justice Communities - Income",
-                "displayName": "Environmental Justice Communities - Income"
+                "name": "Environmental Justice Communities - Income"
             },
             {
-                "name": "Environmental Justice Communities - English Isoloation",
-                "displayName": "Environmental Justice Communities - English Isolation"
+                "name": "Environmental Justice Communities - English Isoloation"
             },
             {
-                "name": "Environmental Justice Communities - Minority",
-                "displayName": "Environmental Justice Communities - Minority"
+                "name": "Environmental Justice Communities - Minority"
             },
             {
-                "name": "Open Space",
-                "displayName": "Open Space"
+                "name": "Open Space"
             },
             {
-                "name": "Brownfields",
-                "displayName": "Brownfields"
+                "name": "Brownfields"
             },
             {
-                "name": "Active River Area",
-                "displayName": "Active River Area"
+                "name": "Active River Area"
             }
         ]
     },
