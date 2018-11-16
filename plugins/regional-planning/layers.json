@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Boston, MA",
+        "displayName": "Boston",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -74,6 +74,21 @@
             },
             {
                 "name": "Active River Area"
+            }
+        ]
+    },
+    {
+        "displayName": "Charles River Watershed",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
+        },
+        "includeLayers": [
+            {
+                "name": "Charles River Watershed",
+                "includeAllLayers": true
             }
         ]
     },
