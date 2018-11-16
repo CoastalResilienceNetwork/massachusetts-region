@@ -96,7 +96,7 @@
                 "name": "Streams and Linear Features"
             },
             {
-                "name": "Waterbodies"
+                "name": "Water Bodies"
             },
             {
                 "name": "Developed Lands (LULC2005)"
@@ -109,7 +109,7 @@
                 "includeAllLayers": true
             },
             {
-                "name": "Restoraton",
+                "name": "Restoration",
                 "includeAllLayers": true
             }
         ]
