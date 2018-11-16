@@ -87,7 +87,29 @@
         },
         "includeLayers": [
             {
-                "name": "Charles River Watershed",
+                "name": "Watershed"
+            },
+            {
+                "name": "Town Boundaries"
+            },
+            {
+                "name": "Streams and Linear Features"
+            },
+            {
+                "name": "Waterbodies"
+            },
+            {
+                "name": "Developed Lands (LULC2005)"
+            },
+            {
+                "name": "Protected Open Space"
+            },
+            {
+                "name": "Conservation",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Restoraton",
                 "includeAllLayers": true
             }
         ]
