@@ -1,41 +1,174 @@
 [
     {
-        "displayName": "Jamaica",
+        "displayName": "Boston",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Jamaica",
-            "name": "Natural_Coastal_Protection"
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
         },
         "includeLayers": [
-			{
-				"name" : "Hazards",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Freshwater",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Infrastructure",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Marine Habitat",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Socio-economic",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Political",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Landuse/Land cover",
-				"includeAllLayers" : true
-			}
-		]
-	}
+            {
+                "name": "Urban Watersheds"
+            },
+            {
+                "name": "Charles, Mystic, and Neponset Mainstems"
+            },
+            {
+                "name": "Towns"
+            },
+            {
+                "name": "Hydrography",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Roads",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Building Footprints"
+            },
+            {
+                "name": "Impervious Surface"
+            },
+            {
+                "name": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Sea Level Rise Inundation",
+                "displayName": "Sea Level Rise",
+                "includeAllLayers": true
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard"
+            },
+            {
+                "name": "Probability of Flooding",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at 1% Flood Probability",
+                "displayName": "Water Depth at 1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at .1% Flood Probability",
+                "displayName": "Water Depth at 0.1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Environmental Justice Communities - Income"
+            },
+            {
+                "name": "Environmental Justice Communities - English Isoloation"
+            },
+            {
+                "name": "Environmental Justice Communities - Minority"
+            },
+            {
+                "name": "Open Space"
+            },
+            {
+                "name": "Brownfields"
+            },
+            {
+                "name": "Active River Area"
+            }
+        ]
+    },
+    {
+        "displayName": "Charles River Watershed",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
+        },
+        "includeLayers": [
+            {
+                "name": "Watershed"
+            },
+            {
+                "name": "Town Boundaries"
+            },
+            {
+                "name": "Streams and Linear Features"
+            },
+            {
+                "name": "Water Bodies"
+            },
+            {
+                "name": "Developed Lands (LULC2005)"
+            },
+            {
+                "name": "Protected Open Space"
+            },
+            {
+                "name": "Conservation",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Restoration",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Martha's Vineyard, MA",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
+        },
+        "includeLayers": [
+            {
+                "name": "Shoreline Stabilization",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Historic Shorelines",
+                "displayName": "Historic Shorelines"
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard Layer"
+            },
+            {
+                "name": "Hurricane Inundation Zones",
+                "displayName": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Open SpaceMV",
+                "displayName": "Open Space"
+            },
+            {
+                "name": "ParcelsMV",
+                "displayName": "Parcels"
+            },
+            {
+                "name": "Assessed Values",
+                "includeAllLayers": true
+            },
+            {
+                "name": "WetlandsMV",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Eelgrass",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Vegetation (1993)",
+                "displayName": "Martha's Vineyard Vegetation (1993)"
+            },
+            {
+                "name": "LANDUSE2005_POLY",
+                "displayName": "LANDUSE2005_POLY"
+            }
+        ]
+    }
 ]
+
+
