@@ -54,7 +54,7 @@
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "identifyEnabled": true,
     "launchpad": {
-            "title": "Massachusetts	",
+            "title": "Massachusetts",
             "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.",
             "plugins": [
                 {
