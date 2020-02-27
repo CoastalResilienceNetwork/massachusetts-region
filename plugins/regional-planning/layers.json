@@ -4,13 +4,76 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Massachusetts",
             "name": "Massachusetts"
         },
         "includeLayers": [
             {
-                "name": "Boston",
-				"includeAllLayers": true				
+                "name": "Urban Watersheds"
+            },
+            {
+                "name": "Charles, Mystic, and Neponset Mainstems"
+            },
+            {
+                "name": "Towns"
+            },
+            {
+                "name": "Hydrography",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Roads",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Building Footprints"
+            },
+            {
+                "name": "Impervious Surface"
+            },
+            {
+                "name": "Hurricane Inundation Zones"
+            },
+            {
+                "name": "Sea Level Rise Inundation",
+                "displayName": "Sea Level Rise",
+                "includeAllLayers": true
+            },
+            {
+                "name": "FEMA National Flood Hazard Layer",
+                "displayName": "FEMA National Flood Hazard"
+            },
+            {
+                "name": "Probability of Flooding",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at 1% Flood Probability",
+                "displayName": "Water Depth at 1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Water Depth at .1% Flood Probability",
+                "displayName": "Water Depth at 0.1% Flood Probability",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Environmental Justice Communities - Income"
+            },
+            {
+                "name": "Environmental Justice Communities - English Isoloation"
+            },
+            {
+                "name": "Environmental Justice Communities - Minority"
+            },
+            {
+                "name": "Open Space"
+            },
+            {
+                "name": "Brownfields"
+            },
+            {
+                "name": "Active River Area"
             }
         ]
     },
@@ -19,14 +82,104 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "name": "Massachusetts"
+        },
+        "includeLayers": [
+            {
+                "name": "Watershed"
+            },
+            {
+                "name": "Town Boundaries"
+            },
+            {
+                "name": "Streams and Linear Features"
+            },
+            {
+                "name": "Water Bodies"
+            },
+            {
+                "name": "Developed Lands (LULC2005)"
+            },
+            {
+                "name": "Protected Open Space"
+            },
+            {
+                "name": "Conservation",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Restoration",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "State Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
             "name": "Massachusetts"
         },
         "includeLayers": [
             {
-                "name": "Charles River Watershed",
-				"includeAllLayers": true				
+                "name": "Town Boundaries",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Watersheds",
+                "displayName": "Watersheds"
+            },
+            {
+                "name": "Open Space Level of Protection",
+                "displayName": "Open Space Level of Protection"
+            },
+            {
+                "name": "Biodiversity",  
+                "includeAllLayers": true
+            },
+            {
+                "name": "Conserve for Drought Resilience",
+                "displayName": "Conserve for Drought Resilience"
+            },
+            {
+                "name": "Conserve for Inland Flood Resilience",
+                "displayName": "Conserve for Inland Flood Resilience"
+            },
+            {
+                "name": "Conserve for Coastal Flood Resilience",
+                "displayName": "Conserve for Coastal Flood Resilience"
+            },
+            {
+                "name": "Restore for Inland Flood Resilience and Connectivity",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Restore for Coastal Adaptation",
+                "displayName": "Restore for Coastal Adaptation"
+            },
+            {
+                "name": "Drought Hazard",
+                "displayName": "Drought Hazard"
+            },
+            {
+                "name": "Inland Flood Hazard",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Flood Hazard",
+                "displayName": "Coastal Flood Hazard"
+            },
+            {
+                "name": "Stormwater Management for Resilience Benefits",
+                "displayName": "Stormwater Management for Resilience Benefits"
+            },
+            {
+                "name": "Agricultural BMPs",
+                "displayName": "Agricultural BMPs"
             }
+            
         ]
     },
     {
@@ -44,21 +197,6 @@
                 "name": "MassGIS Level 3 Parcels",
                 "displayName": "Parcels",
                 "includeAllLayers" : true
-            }
-        ]
-    },
-    {
-        "displayName": "State Data",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
-            "name": "Massachusetts"
-        },
-        "includeLayers": [
-            {
-                "name": "State Data",
-				"includeAllLayers": true				
             }
         ]
     }
