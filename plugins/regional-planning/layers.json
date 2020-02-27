@@ -9,71 +9,8 @@
         },
         "includeLayers": [
             {
-                "name": "Urban Watersheds"
-            },
-            {
-                "name": "Charles, Mystic, and Neponset Mainstems"
-            },
-            {
-                "name": "Towns"
-            },
-            {
-                "name": "Hydrography",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Roads",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Building Footprints"
-            },
-            {
-                "name": "Impervious Surface"
-            },
-            {
-                "name": "Hurricane Inundation Zones"
-            },
-            {
-                "name": "Sea Level Rise Inundation",
-                "displayName": "Sea Level Rise",
-                "includeAllLayers": true
-            },
-            {
-                "name": "FEMA National Flood Hazard Layer",
-                "displayName": "FEMA National Flood Hazard"
-            },
-            {
-                "name": "Probability of Flooding",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Water Depth at 1% Flood Probability",
-                "displayName": "Water Depth at 1% Flood Probability",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Water Depth at .1% Flood Probability",
-                "displayName": "Water Depth at 0.1% Flood Probability",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Environmental Justice Communities - Income"
-            },
-            {
-                "name": "Environmental Justice Communities - English Isoloation"
-            },
-            {
-                "name": "Environmental Justice Communities - Minority"
-            },
-            {
-                "name": "Open Space"
-            },
-            {
-                "name": "Brownfields"
-            },
-            {
-                "name": "Active River Area"
+                "name": "Boston",
+				"includeAllLayers": true				
             }
         ]
     },
@@ -87,35 +24,31 @@
         },
         "includeLayers": [
             {
-                "name": "Watershed"
-            },
-            {
-                "name": "Town Boundaries"
-            },
-            {
-                "name": "Streams and Linear Features"
-            },
-            {
-                "name": "Water Bodies"
-            },
-            {
-                "name": "Developed Lands (LULC2005)"
-            },
-            {
-                "name": "Protected Open Space"
-            },
-            {
-                "name": "Conservation",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Restoration",
-                "includeAllLayers": true
+                "name": "Charles River Watershed",
+				"includeAllLayers": true				
             }
         ]
     },
     {
-        "displayName": "Martha's Vineyard, MA",
+        "displayName": "State Parcels",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://gisprpxy.itd.state.ma.us/arcgisserver/services/AGOL"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "L3Parcels_feature_service"
+                },
+                "name": "MassGIS Level 3 Parcels",
+                "displayName": "Parcels",
+                "includeAllLayers" : true
+            }
+        ]
+    },
+    {
+        "displayName": "State Data",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -124,51 +57,12 @@
         },
         "includeLayers": [
             {
-                "name": "Shoreline Stabilization",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Historic Shorelines",
-                "displayName": "Historic Shorelines"
-            },
-            {
-                "name": "FEMA National Flood Hazard Layer",
-                "displayName": "FEMA National Flood Hazard Layer"
-            },
-            {
-                "name": "Hurricane Inundation Zones",
-                "displayName": "Hurricane Inundation Zones"
-            },
-            {
-                "name": "Open SpaceMV",
-                "displayName": "Open Space"
-            },
-            {
-                "name": "ParcelsMV",
-                "displayName": "Parcels"
-            },
-            {
-                "name": "Assessed Values",
-                "includeAllLayers": true
-            },
-            {
-                "name": "WetlandsMV",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Eelgrass",
-                "includeAllLayers": true
-            },
-            {
-                "name": "Vegetation (1993)",
-                "displayName": "Martha's Vineyard Vegetation (1993)"
-            },
-            {
-                "name": "LANDUSE2005_POLY",
-                "displayName": "LANDUSE2005_POLY"
+                "name": "State Data",
+				"includeAllLayers": true				
             }
         ]
     }
+
 ]
 
 
