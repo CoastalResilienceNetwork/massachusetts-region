@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
             "name": "Massachusetts"
         },
         "includeLayers": [
@@ -19,7 +19,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
             "name": "Massachusetts"
         },
         "includeLayers": [
@@ -52,7 +52,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Massachusetts",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Massachusetts",
             "name": "Massachusetts"
         },
         "includeLayers": [
