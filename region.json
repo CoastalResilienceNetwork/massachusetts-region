@@ -55,7 +55,7 @@
     "identifyEnabled": true,
     "launchpad": {
             "title": "Massachusetts",
-            "description": "a.	The Nature Conservancy has worked with the Massachusetts Executive Office of Environment and Energy Affairs (EEA) to create a set of maps that help communities identify where nature-based solutions (NBS) can most effectively address natural hazards and contribute to resilience planning at a local level. This project leverages existing statewide datasets and analyses to create easily understandable layers that highlight a range of potential actions and next steps. The results are intended as a high-level screening tool to identify places where conservation and restoration can help combat drought susceptibility, inland and coastal flooding hazards, and contribute to ecosystem co-benefits.",
+            "description": "The Nature Conservancy has worked with the Massachusetts Executive Office of Environment and Energy Affairs (EEA) to create a set of maps that help communities identify where nature-based solutions (NBS) can most effectively address natural hazards and contribute to resilience planning at a local level. This project leverages existing statewide datasets and analyses to create easily understandable layers that highlight a range of potential actions and next steps. The results are intended as a high-level screening tool to identify places where conservation and restoration can help combat drought susceptibility, inland and coastal flooding hazards, and contribute to ecosystem co-benefits.",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
