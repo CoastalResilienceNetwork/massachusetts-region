@@ -187,16 +187,15 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://gisprpxy.itd.state.ma.us/arcgisserver/services/AGOL"
+            "url": "http://gisprpxy.itd.state.ma.us/arcgisserver/rest/services/AGOL",
+            "name": "L3Parcels_feature_service"
+
+
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "L3Parcels_feature_service"
-                },
                 "name": "MassGIS Level 3 Parcels",
-                "displayName": "Parcels",
-                "includeAllLayers" : true
+                "displayName": "Parcels (Zoom to View)"
             }
         ]
     }
