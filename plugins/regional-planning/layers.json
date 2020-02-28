@@ -115,7 +115,7 @@
         ]
     },
     {
-        "displayName": "State Data",
+        "displayName": "Massachusetts",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
