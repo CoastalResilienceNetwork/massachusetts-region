@@ -115,7 +115,7 @@
         ]
     },
     {
-        "displayName": "Martha's Vineyard, MA",
+        "displayName": "Massachusetts",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -124,51 +124,82 @@
         },
         "includeLayers": [
             {
-                "name": "Shoreline Stabilization",
+                "name": "Town Boundaries",
                 "includeAllLayers": true
             },
             {
-                "name": "Historic Shorelines",
-                "displayName": "Historic Shorelines"
+                "name": "Watersheds",
+                "displayName": "Watersheds"
             },
             {
-                "name": "FEMA National Flood Hazard Layer",
-                "displayName": "FEMA National Flood Hazard Layer"
+                "name": "Open Space Level of Protection",
+                "displayName": "Open Space Level of Protection"
             },
             {
-                "name": "Hurricane Inundation Zones",
-                "displayName": "Hurricane Inundation Zones"
-            },
-            {
-                "name": "Open SpaceMV",
-                "displayName": "Open Space"
-            },
-            {
-                "name": "ParcelsMV",
-                "displayName": "Parcels"
-            },
-            {
-                "name": "Assessed Values",
+                "name": "Biodiversity",  
                 "includeAllLayers": true
             },
             {
-                "name": "WetlandsMV",
+                "name": "Conserve for Drought Resilience",
+                "displayName": "Conserve for Drought Resilience"
+            },
+            {
+                "name": "Conserve for Inland Flood Resilience",
+                "displayName": "Conserve for Inland Flood Resilience"
+            },
+            {
+                "name": "Conserve for Coastal Flood Resilience",
+                "displayName": "Conserve for Coastal Flood Resilience"
+            },
+            {
+                "name": "Restore for Inland Flood Resilience and Connectivity",
                 "includeAllLayers": true
             },
             {
-                "name": "Eelgrass",
+                "name": "Restore for Coastal Adaptation",
+                "displayName": "Restore for Coastal Adaptation"
+            },
+            {
+                "name": "Drought Hazard",
+                "displayName": "Drought Hazard"
+            },
+            {
+                "name": "Inland Flood Hazard",
                 "includeAllLayers": true
             },
             {
-                "name": "Vegetation (1993)",
-                "displayName": "Martha's Vineyard Vegetation (1993)"
+                "name": "Coastal Flood Hazard",
+                "displayName": "Coastal Flood Hazard"
             },
             {
-                "name": "LANDUSE2005_POLY",
-                "displayName": "LANDUSE2005_POLY"
+                "name": "Stormwater Management for Resilience Benefits",
+                "displayName": "Stormwater Management for Resilience Benefits"
+            },
+            {
+                "name": "Agricultural BMPs",
+                "displayName": "Agricultural BMPs"
+            }
+            
+        ]
+    },
+    {
+        "displayName": "State Parcels",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://gisprpxy.itd.state.ma.us/arcgisserver/rest/services/AGOL",
+            "name": "L3Parcels_feature_service"
+
+
+        },
+        "includeLayers": [
+            {
+                "name": "MassGIS Level 3 Parcels",
+                "displayName": "Parcels (Zoom to View)"
             }
         ]
     }
+
 ]
 
 
