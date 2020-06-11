@@ -125,61 +125,36 @@
         "includeLayers": [
             {
                 "name": "Town Boundaries",
-                "includeAllLayers": true
+                "displayName": "Town Boundaries"
             },
             {
                 "name": "Watersheds",
                 "displayName": "Watersheds"
             },
             {
-                "name": "Open Space Level of Protection",
+                "name": "MassGIS Open Space",
                 "displayName": "Open Space Level of Protection"
             },
             {
-                "name": "Biodiversity",  
+                "name": "Biodiversity Co-Benefit Opportunities",  
                 "includeAllLayers": true
             },
             {
-                "name": "Conserve for Drought Resilience",
-                "displayName": "Conserve for Drought Resilience"
-            },
-            {
-                "name": "Conserve for Inland Flood Resilience",
-                "displayName": "Conserve for Inland Flood Resilience"
-            },
-            {
-                "name": "Conserve for Coastal Flood Resilience",
-                "displayName": "Conserve for Coastal Flood Resilience"
-            },
-            {
-                "name": "Restore for Inland Flood Resilience and Connectivity",
+                "name": "Conserve",
                 "includeAllLayers": true
             },
             {
-                "name": "Restore for Coastal Adaptation",
-                "displayName": "Restore for Coastal Adaptation"
-            },
-            {
-                "name": "Drought Hazard",
-                "displayName": "Drought Hazard"
-            },
-            {
-                "name": "Inland Flood Hazard",
+                "name": "Restore",
                 "includeAllLayers": true
             },
             {
-                "name": "Coastal Flood Hazard",
-                "displayName": "Coastal Flood Hazard"
+                "name": "Manage",
+                "includeAllLayers": true
             },
             {
-                "name": "Stormwater Management for Resilience Benefits",
-                "displayName": "Stormwater Management for Resilience Benefits"
-            },
-            {
-                "name": "Agricultural BMPs",
-                "displayName": "Agricultural BMPs"
+                "name": "Hazard",
+                "includeAllLayers": true
             }
-            
         ]
     },
     {
